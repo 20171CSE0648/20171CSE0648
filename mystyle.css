@@ -1,0 +1,14 @@
+body{
+	background-image:url("/home/Sem6B10/Desktop/spring.jpg");
+	background-repeat:no-repeat;
+	background-color:linen;
+	background-attachment:fixed;
+	}
+	  h1,h2,h3{
+		color:maroon;
+		margin-left:40px;
+		}
+		p{
+			color:blue;
+			margin:60px;
+		}
