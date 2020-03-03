@@ -23,6 +23,10 @@ body{
 			font-weight:bolder;
 			text-align:left;
 			text-decoration:line-through;
+			border-style:solid;
+			border-color:red;
+			padding:25px 50px 75px 100px;
+
 		 	}
 		p.special{
 			color:blue;
@@ -46,3 +50,119 @@ body{
 			filter:alpha(opacity=40);			
 			}
 		
+
+
+	p.name{
+		font-size:60px;
+		color:blue;
+		border-style:dashed;
+		border-color:green;
+		border-width:2px 2px 2px 2px;
+		margin:2cm;
+		padding:5px 5px 5px 5px;
+			}
+
+
+
+	li{
+		font-size:30px;
+		color:green;		
+		display:block;
+	}
+
+	
+	
+	span.a{
+	display:inline;
+	width:100px;
+	height:100px;
+	padding:5px;
+	border:1px solid blue;
+	background-color:yellow;
+	}
+	
+	span.b{
+	display:inline-block;
+	width:100px;
+	height:100px;
+	padding:5px;
+	border:1px solid blue;
+	background-color:green;
+	}
+
+	span.c{
+	display:block;
+	width:1000px;
+	height:1000px;
+	padding:5px;
+	border:1px solid blue;
+	background-color:red;
+	}
+
+a.rose {
+  
+  color: black;
+  text-align: center;
+  display: inline-block;
+}
+
+ a.kiwi{
+color: black;
+text-decoration: none;
+text-align: center;
+display: inline-block;
+}
+ a.mango{
+border-style:2px solid;
+border-color:blue;
+padding:14px 25px;
+text-decoration: none;
+text-align: center;
+display: inline-block;
+}
+ a.jas{
+border-style:2px solid;
+border-color:blue;
+padding:14px 25px;
+background-color: #f44336;
+text-decoration: none;
+text-align: center;
+display: inline-block;
+}
+
+
+a.rose:link{
+background-color:black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+ a.rose:visited {
+  color:red;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.:hover{
+ background-color:red;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;}
+
+ a:active {
+  background-color: green;
+}
+
+
+
+
+
+
+
