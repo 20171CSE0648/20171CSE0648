@@ -34,7 +34,7 @@ body{
 			font-family:georgia,garamond,serif;
 			font-size:40px;
 			text-indent:1cm;
-			text-align:center;
+			text-align:center;0000000000000000000000
 			text-decoration:overline;
 			}
 		p.ariel{
@@ -96,7 +96,7 @@ body{
 	height:1000px;
 	padding:5px;
 	border:1px solid blue;
-	background-color:red;
+	background-color:white;
 	}
 
 a.rose {
@@ -159,6 +159,63 @@ a.:hover{
  a:active {
   background-color: green;
 }
+
+
+
+
+p::first-line{
+color: #ff0000;
+font-variant:small-caps;
+}
+
+p::first-letter{
+color:#ff0000;
+font-size:xx-large;
+}
+
+
+::selection{
+color:red;
+background:blue;
+}
+
+#grad{
+background-image:linear-gradient(red,yellow);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
