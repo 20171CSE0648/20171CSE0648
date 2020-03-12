@@ -9,7 +9,59 @@ body{
 }
 
 div{
-opacity:0.7;
+width:100px;
+height:100px;
+background:red;
+transition:width 2s,height 4s,transform 2s;
+animation-name:example;
+animation-duration:4s;
+animation-delay:2s;
+animation-iteration-count:3;
+}
+
+
+div:hover{
+width:300px;
+height:300px;
+transform:rotate(180deg);
+transform:translate(50px, 100px);
+transform:scale(2,3);
+transform:skew(20deg);
+}
+
+
+@keyframes example{
+from{background-color:red;}
+to{background-color:yellow;}
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+}
+
+li a {
+  display: block;
+  width:60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 h3{
 		color:black;
